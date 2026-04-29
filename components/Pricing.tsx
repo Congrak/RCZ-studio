@@ -63,8 +63,8 @@ export default function Pricing() {
   }, []);
 
   return (
-    <section id="pricing" className="py-20 px-8 md:px-12" ref={ref}>
-      <div className="fade-in mb-14">
+    <section id="pricing" className="py-16 px-8 md:px-12" ref={ref}>
+      <div className="fade-in mb-10">
         <p className="text-accent text-xs font-medium tracking-widest uppercase mb-3">
           Services & Pricing
         </p>
