@@ -13,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center px-8 md:px-12 pt-32 pb-16 relative overflow-hidden">
+    <section className="flex flex-col justify-center px-8 md:px-12 pt-28 pb-14 relative overflow-hidden">
       <div className="hero-grid-bg" />
       <div
         className="absolute -top-1/5 -right-1/4 w-[600px] h-[600px] z-0"
@@ -23,18 +23,18 @@ export default function Hero() {
       />
 
       <div ref={ref} className="fade-in relative z-10 max-w-4xl">
-        <div className="inline-flex items-center gap-2 bg-[rgba(200,255,0,0.1)] border border-[rgba(200,255,0,0.25)] text-accent text-xs font-medium tracking-widest uppercase px-4 py-2 rounded-full mb-8">
+        <div className="inline-flex items-center gap-2 bg-[rgba(200,255,0,0.1)] border border-[rgba(200,255,0,0.25)] text-accent text-xs font-medium tracking-widest uppercase px-4 py-2 rounded-full mb-5">
           <span className="dot-pulse" />
           TikTok Growth Partner
         </div>
 
-        <h1 className="font-display font-extrabold leading-none tracking-tight mb-6 text-[clamp(3rem,7vw,5.5rem)]">
+        <h1 className="font-display font-extrabold leading-none tracking-tight mb-4 text-[clamp(3rem,7vw,5.5rem)]">
           Scale your brand on{" "}
           <em className="text-accent not-italic">TikTok</em> —{" "}
           the right way.
         </h1>
 
-        <p className="text-[#8a8780] font-light text-lg max-w-xl leading-relaxed mb-10">
+        <p className="text-[#8a8780] font-light text-lg max-w-xl leading-relaxed mb-7">
           Full-stack TikTok marketing: ads, TikTok Shop, Smart+, GMV Max, pixel
           tracking, MMP integration, and custom dev work — all under one roof.
         </p>
@@ -54,7 +54,7 @@ export default function Hero() {
           </Link>
         </div>
 
-        <div className="flex flex-wrap gap-12 mt-16 pt-10 border-t border-[#2a2924]">
+        <div className="flex flex-wrap gap-10 mt-10 pt-8 border-t border-[#2a2924]">
           {[
             { num: "3+", label: "Years TikTok Ads" },
             { num: "Full", label: "Stack Developer" },

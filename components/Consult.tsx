@@ -26,7 +26,7 @@ export default function Consult() {
   return (
     <section
       id="consult"
-      className="py-20 px-8 md:px-12 bg-card-bg border-t border-b border-card-border"
+      className="py-16 px-8 md:px-12 bg-card-bg border-t border-b border-card-border"
       ref={ref}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">

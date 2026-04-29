@@ -67,8 +67,8 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 px-8 md:px-12" ref={ref}>
-      <div className="fade-in mb-14">
+    <section id="contact" className="py-16 px-8 md:px-12" ref={ref}>
+      <div className="fade-in mb-10">
         <p className="text-accent text-xs font-medium tracking-widest uppercase mb-3">Contact</p>
         <h2 className="font-display font-extrabold text-4xl md:text-5xl tracking-tight">
           Let&apos;s talk growth
