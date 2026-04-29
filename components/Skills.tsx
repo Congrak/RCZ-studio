@@ -49,10 +49,10 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="py-16 px-8 md:px-12 bg-card-bg border-t border-b border-card-border"
+      className="py-20 px-8 md:px-12 bg-card-bg border-t border-b border-card-border"
       ref={ref}
     >
-      <div className="fade-in mb-10">
+      <div className="fade-in mb-14">
         <p className="text-accent text-xs font-medium tracking-widest uppercase mb-3">Expertise</p>
         <h2 className="font-display font-extrabold text-4xl md:text-5xl tracking-tight mb-4">
           What sets us apart
